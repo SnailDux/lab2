@@ -22,6 +22,7 @@ namespace UnitTestProject1
 
             Assert.AreEqual(stri, "Summary weight: 32, summary value: 44");
         }
+        [TestMethod]
         public void TestMethod3()
         {
             var p = new ConsoleApp3.Program();
@@ -30,6 +31,7 @@ namespace UnitTestProject1
             Assert.AreEqual(stri, "Summary weight: 47, summary value: 37");
         }
 
+        [TestMethod]
         public void TestMethod4()
         {
             var p = new ConsoleApp3.Program();
