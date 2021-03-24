@@ -26,10 +26,7 @@ namespace WindowsFormsApp1
             var s = p.pakowanie(capacity, n, seed);
             textBox4.Text = s;
 
-            // to sie wykona jak kkikne guzik
-            // element klasy program i przy wykonywaniu odwolywac sie do metody tej klasy
-            // textbox4.text = (jakis string)
-            // costam = textbox4.text ( to sa stringi, na inty trzeba castować)
+
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -58,6 +55,11 @@ namespace WindowsFormsApp1
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }
