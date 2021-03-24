@@ -7,7 +7,7 @@ namespace ConsoleApp3 {
         static void Main(string[] args)
         {
             var p = new Program();
-            var s = p.pakowanie(20, 2, 2);
+            var s = p.pakowanie(2, 200, 3);
             System.Console.WriteLine(s);
             Console.ReadLine();
         }
